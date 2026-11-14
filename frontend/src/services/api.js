@@ -27,7 +27,7 @@ async function request(endpoint, options = {}) {
     return await response.json();
   } catch (err) {
     if (err.message.includes('Failed to fetch') || err.message.includes('NetworkError')) {
-      throw new Error('Unable to connect to TruthGuard AI backend. Ensure backend is running at http://127.0.0.1:8000.');
+      throw new Error('Unable to connect to TruthGuard AI backend. Check VITE_API_URL environment variable or ensure backend is running.');
     }
     throw err;
   }
