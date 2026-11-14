@@ -1,0 +1,47 @@
+export const SAMPLE_NEWS_ITEMS = [
+  {
+    id: "sample-chandrayaan",
+    label: "Chandrayaan-3 Moon Landing",
+    expectedVerdict: "LIKELY_REAL",
+    badgeColor: "bg-emerald-500/20 text-emerald-400 border-emerald-500/30",
+    type: "article",
+    title: "ISRO's Chandrayaan-3 Successfully Soft-Lands on Moon's South Pole",
+    text: "India's Chandrayaan-3 mission has successfully achieved a soft landing near the south pole of the Moon, making India the fourth country in the world to touch down on the lunar surface and the first to reach the rugged southern polar region. ISRO officials confirmed telemetry signals and confirmed that the Pragyan rover has rolled out to begin 14 Earth days of scientific experiments.",
+  },
+  {
+    id: "sample-lemon-cancer",
+    label: "Lemon Water Cancer Miracle",
+    expectedVerdict: "LIKELY_FAKE",
+    badgeColor: "bg-rose-500/20 text-rose-400 border-rose-500/30",
+    type: "headline",
+    title: "SHOCKING MIRACLE CURE: Doctors are Furious! Hot Lemon Water Kills 100% Cancer Cells!",
+    text: "SHOCKING MIRACLE CURE: Doctors are furious! Drinking boiled lemon water with baking soda destroys 100% of cancer cells 10,000 times faster than chemo! Share before it gets deleted by Big Pharma and the deep state!",
+  },
+  {
+    id: "sample-5g-towers",
+    label: "5G Wireless Pandemic Conspiracy",
+    expectedVerdict: "LIKELY_FAKE",
+    badgeColor: "bg-rose-500/20 text-rose-400 border-rose-500/30",
+    type: "article",
+    title: "Viral Rumor Claims 5G Cellular Towers Transmit Respiratory Viruses",
+    text: "Social media claims circulate alleging that 5G radio towers emit high-frequency millimeter waves that suppress human immunity and transmit respiratory biological viruses. The posts urge people to avoid newly installed mobile towers to prevent infection.",
+  },
+  {
+    id: "sample-himalayan-biodome",
+    label: "Himalayan Underground Cavern",
+    expectedVerdict: "UNVERIFIED",
+    badgeColor: "bg-amber-500/20 text-amber-400 border-amber-500/30",
+    type: "article",
+    title: "Anonymous Memo Claims Secret Underground Biosphere Under Himalayas",
+    text: "An unverified leaked memo claims that a team of glaciologists accidentally drilled into a subterranean cavern beneath Himalayan glaciers containing unidentified bioluminescent vegetation and unusual acoustic echoes.",
+  },
+  {
+    id: "sample-alkaline-water",
+    label: "Alkaline Water Antiviral Claims",
+    expectedVerdict: "MIXED_OR_MISLEADING",
+    badgeColor: "bg-purple-500/20 text-purple-400 border-purple-500/30",
+    type: "article",
+    title: "Bottled Alkaline Water Brand Claims 100% Protection Against Seasonal Influenza",
+    text: "A commercial bottled water manufacturer claims that drinking their alkaline mineral water raises blood pH to alkaline levels that guarantee 100% immunity from seasonal airborne flu viruses.",
+  }
+];
